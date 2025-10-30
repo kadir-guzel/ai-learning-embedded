@@ -11,7 +11,18 @@ import torch
 import torch.nn as nn
 
 # UNUSED IMPORTS - PyTrim should remove these
+import numpy as np
+import pandas as pd
+import scipy.stats
+import requests
+import cv2
+import sklearn
 from transformers import pipeline
+import tensorflow as tf
+import jax.numpy as jnp
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
 
 class SimpleModel(nn.Module):
     def __init__(self):

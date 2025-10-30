@@ -25,15 +25,61 @@ from torch.utils.data import DataLoader
 import torchvision
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
+import numpy as np
+import time
 from tqdm import tqdm
 
 # UNUSED IMPORTS - PyTrim should detect and remove these
+import os
+import sys
+import json
+import pickle
+import datetime
+import random
+import logging
+import argparse
+import collections
+import itertools
+import functools
+import pathlib
+import shutil
+import urllib.request
+import xml.etree.ElementTree as ET
+import csv
+import sqlite3
+import threading
+import multiprocessing
+import asyncio
+import socket
+import hashlib
+import base64
+import re
+import math
+import statistics
+import decimal
+import fractions
 
 # More unused scientific computing imports
 import scipy
 import scipy.stats
+import scipy.optimize
+import sklearn
+from sklearn.metrics import accuracy_score, precision_score
+from sklearn.preprocessing import StandardScaler
+import pandas as pd
+import seaborn as sns
 from PIL import Image, ImageFilter
+import cv2
+import requests
+import urllib3
+import boto3
+import tensorflow as tf
+from tensorflow import keras
+import jax
+import jax.numpy as jnp
 from transformers import pipeline
+import datasets
+from datasets import load_dataset
 
 class EfficiencyAwareLoss(nn.Module):
     """
